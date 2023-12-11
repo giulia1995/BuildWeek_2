@@ -1,1 +1,17 @@
-
+.logo{
+    width: 100px;
+    height: 50px;
+}
+.central-navbar li {
+    list-style-type: none!important;
+}
+ a {
+    color: white;
+text-decoration: none!important;
+}
+.dx-nav ion-icon{
+    scale: 1.5;
+}
+button ion-icon{
+    color: grey;
+}
