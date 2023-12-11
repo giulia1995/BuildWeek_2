@@ -15,3 +15,6 @@ text-decoration: none!important;
 button ion-icon{
     color: grey;
 }
+.dropdown-toggle::after {
+    display:none;
+}
