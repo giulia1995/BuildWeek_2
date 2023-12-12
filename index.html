@@ -13,17 +13,14 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <nav
-      class="navbar bg-black border-bottom border-body px-5"
-      data-bs-theme="dark"
-    >
+    <nav class="navbar bg-black px-5" data-bs-theme="dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
           ><img class="logo" src="./assets/logo.png" alt="logo"
         /></a>
         <div class="central-navbar d-flex align-content-start">
           <ul
-            class="d-flex justify-content-center text-align-center gap-5 mb-0"
+            class="justify-content-center text-align-center gap-5 mb-0 d-none d-lg-flex"
           >
             <li>
               <a href="#">Places to stay</a>
@@ -37,7 +34,7 @@
           </ul>
         </div>
         <div class="dx-nav d-flex gap-3 align-items-center">
-          <a href="#">Become a host</a>
+          <a href="#" class="d-none d-sm-block">Become a host</a>
           <ion-icon name="globe-outline" class="text-white"></ion-icon>
           <div class="btn-group">
             <button
@@ -97,30 +94,38 @@
     </nav>
     <div class="d-flex justify-content-center bg-black">
       <main
-        class="d-flex justify-content-between align-items-center bg-white rounded-pill px-3 p-2"
+        class="d-flex justify-content-between align-items-center gap-5 bg-white rounded-pill px-3 p-2"
       >
-        <div class="d-flex flex-column">
+        <div class="flex-column flex-column">
           <a href="#" class="title text-black fs-6">Location</a>
-          <a href="#" class="text-body-secondary opacity-75 fw-semibold">Where are you going?</a>
+          <a href="#" class="text-body-secondary opacity-75 fw-semibold"
+            >Where are you going?</a
+          >
         </div>
         <div class="d-flex justify-content-center gap-4">
-          <div class="d-flex flex-column">
+          <div class="flex-column d-none d-lg-flex">
             <a href="#" class="title text-black fs-6">Check-in</a>
             <div class="date d-flex align-items-center gap-4">
-              <a href="#" class="text-body-secondary opacity-75 fw-semibold">gg/mm/aaaa</a>
+              <a href="#" class="text-body-secondary opacity-75 fw-semibold"
+                >gg/mm/aaaa</a
+              >
               <ion-icon name="calendar"></ion-icon>
             </div>
           </div>
-          <div class="d-flex flex-column">
+          <div class="flex-column d-none d-lg-flex">
             <a href="#" class="title text-black fs-6">Check-out</a>
             <div class="date d-flex align-items-center gap-4">
-              <a href="#" class="text-body-secondary opacity-75 fw-semibold">gg/mm/aaaa</a>
+              <a href="#" class="text-body-secondary opacity-75 fw-semibold"
+                >gg/mm/aaaa</a
+              >
               <ion-icon name="calendar"></ion-icon>
             </div>
           </div>
-          <div class="d-flex flex-column">
+          <div class="flex-column d-none d-md-flex">
             <a href="#" class="title text-black fs-6">Guest</a>
-            <a href="#" class="text-body-secondary opacity-75 fw-semibold">Add guest</a>
+            <a href="#" class="text-body-secondary opacity-75 fw-semibold"
+              >Add guest</a
+            >
           </div>
         </div>
         <ion-icon
@@ -129,23 +134,161 @@
         ></ion-icon>
       </main>
     </div>
-    <div class="jumbtron d-flex text-align-center px-3">
-    <div>
-   <img class="imgHome" src="assets/home.jpg" alt="imgHome">
-    <h1 class="go-near text-white fw-bolder">GO <br> NEAR</h1>
-    <button type="button" class="btn active bg-white text-black fw-medium" data-bs-toggle="button" aria-pressed="true">Explore nearby stays</button>
+    <div class="jumbtron d-flex">
+      <div
+        class="testo-jumbtron px-5 d-flex justify-content-center flex-column"
+      >
+        <h1 class="go-near text-white fw-bolder">
+          GO <br />
+          NEAR
+        </h1>
+        <button
+          type="button"
+          class="btn active bg-white text-black fw-medium"
+          data-bs-toggle="button"
+          aria-pressed="true"
+        >
+          Explore nearby stays
+        </button>
+      </div>
     </div>
-    </div>
-    <div class="container row col-12 justify-content-around">
-      <div class="card">
-        <img src="1.webp" alt="">
-        <div class="testo">
-          liguria
+    <div class="container d-flex flex-wrap justify-content-start">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div
+          class="carta d-flex justify-content-start gap-3 align-items-center"
+        >
+          <img
+            src="https://thumbs.dreamstime.com/b/schiocco-dell-orizzonte-di-genova-60592143.jpg"
+            alt="img"
+          />
+          <div class="testo d-flex flex-column">
+            <a href="#" class="title text-black fs-6">Genova</a>
+            <a href="#" class="text-body-secondary opacity-75 fw-semibold"
+              >15 min drive</a
+            >
+          </div>
         </div>
-
       </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div
+          class="carta d-flex justify-content-start gap-3 align-items-center"
+        >
+          <img
+            src="https://thumbs.dreamstime.com/b/schiocco-dell-orizzonte-di-genova-60592143.jpg"
+            alt="img"
+          />
+          <div class="testo d-flex flex-column">
+            <a href="#" class="title text-black fs-6">Genova</a>
+            <a href="#" class="text-body-secondary opacity-75 fw-semibold"
+              >15 min drive</a
+            >
+          </div>
+        </div>
       </div>
-
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div
+          class="carta d-flex justify-content-start gap-3 align-items-center"
+        >
+          <img
+            src="https://thumbs.dreamstime.com/b/schiocco-dell-orizzonte-di-genova-60592143.jpg"
+            alt="img"
+          />
+          <div class="testo d-flex flex-column">
+            <a href="#" class="title text-black fs-6">Genova</a>
+            <a href="#" class="text-body-secondary opacity-75 fw-semibold"
+              >15 min drive</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div
+          class="carta d-flex justify-content-start gap-3 align-items-center"
+        >
+          <img
+            src="https://thumbs.dreamstime.com/b/schiocco-dell-orizzonte-di-genova-60592143.jpg"
+            alt="img"
+          />
+          <div class="testo d-flex flex-column">
+            <a href="#" class="title text-black fs-6">Genova</a>
+            <a href="#" class="text-body-secondary opacity-75 fw-semibold"
+              >15 min drive</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div
+          class="carta d-flex justify-content-start gap-3 align-items-center"
+        >
+          <img
+            src="https://thumbs.dreamstime.com/b/schiocco-dell-orizzonte-di-genova-60592143.jpg"
+            alt="img"
+          />
+          <div class="testo d-flex flex-column">
+            <a href="#" class="title text-black fs-6">Genova</a>
+            <a href="#" class="text-body-secondary opacity-75 fw-semibold"
+              >15 min drive</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div
+          class="carta d-flex justify-content-start gap-3 align-items-center"
+        >
+          <img
+            src="https://thumbs.dreamstime.com/b/schiocco-dell-orizzonte-di-genova-60592143.jpg"
+            alt="img"
+          />
+          <div class="testo d-flex flex-column">
+            <a href="#" class="title text-black fs-6">Genova</a>
+            <a href="#" class="text-body-secondary opacity-75 fw-semibold"
+              >15 min drive</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div
+          class="carta d-flex justify-content-start gap-3 align-items-center"
+        >
+          <img
+            src="https://thumbs.dreamstime.com/b/schiocco-dell-orizzonte-di-genova-60592143.jpg"
+            alt="img"
+          />
+          <div class="testo d-flex flex-column">
+            <a href="#" class="title text-black fs-6">Genova</a>
+            <a href="#" class="text-body-secondary opacity-75 fw-semibold"
+              >15 min drive</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div
+          class="carta d-flex justify-content-start gap-3 align-items-center"
+        >
+          <img
+            src="https://thumbs.dreamstime.com/b/schiocco-dell-orizzonte-di-genova-60592143.jpg"
+            alt="img"
+          />
+          <div class="testo d-flex flex-column">
+            <a href="#" class="title text-black fs-6">Genova</a>
+            <a href="#" class="text-body-secondary opacity-75 fw-semibold"
+              >15 min drive</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer bg-secondary">
+      <p class="mb-0">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae
+        voluptate nulla reprehenderit rerum sint corporis vero beatae
+        consequatur pariatur esse nostrum quis molestias, optio atque id
+        aliquam, officiis est minus?
+      </p>
     </div>
     <script
       type="module"
