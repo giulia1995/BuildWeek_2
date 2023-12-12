@@ -1,0 +1,35 @@
+/* NAVBAR */
+.logo{
+    width: 100px;
+    height: 50px;
+}
+
+.central-navbar li {
+    list-style-type: none!important;
+}
+a {
+    color: black;
+text-decoration: none!important;
+}
+.dx-nav ion-icon{
+    scale: 1.5;
+}
+button ion-icon{
+    color: grey;
+}
+.dropdown-toggle::after {
+    display:none;
+}
+.search-icon{
+    border-radius: 50% !important;
+    width: 30px !important;
+    height: 30px !important;
+    background-color: #FF5A5E !important;
+}
+p.font {
+    font-size: small !important;
+    padding-top: 5px !important;
+}
+.icone:hover{
+    border-bottom: 2px solid black !important;
+}
