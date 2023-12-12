@@ -40,14 +40,30 @@
           <a href="#">Become a host</a>
           <ion-icon name="globe-outline" class="text-white"></ion-icon>
           <div class="btn-group">
-            <button type="button" class="btn btn-secondary dropdown-toggle rounded-pill bg-white d-flex gap-3 btn-lg" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+            <button
+              type="button"
+              class="btn btn-secondary dropdown-toggle rounded-pill bg-white d-flex gap-3 btn-lg"
+              data-bs-toggle="dropdown"
+              data-bs-display="static"
+              aria-expanded="false"
+            >
               <ion-icon name="menu-outline"></ion-icon>
               <ion-icon name="person-circle-outline"></ion-icon>
             </button>
             <ul class="dropdown-menu dropdown-menu-end">
-              <li><button class="dropdown-item" type="button">Action</button></li>
-              <li><button class="dropdown-item" type="button">Another action</button></li>
-              <li><button class="dropdown-item" type="button">Something else here</button></li>
+              <li>
+                <button class="dropdown-item" type="button">Action</button>
+              </li>
+              <li>
+                <button class="dropdown-item" type="button">
+                  Another action
+                </button>
+              </li>
+              <li>
+                <button class="dropdown-item" type="button">
+                  Something else here
+                </button>
+              </li>
             </ul>
           </div>
         </div>
@@ -79,6 +95,41 @@
         </div> -->
       </div>
     </nav>
+    <div class="d-flex justify-content-center bg-black">
+      <main
+        class="d-flex justify-content-between align-items-center bg-white rounded-pill px-2"
+      >
+        <div class="d-flex flex-column">
+          <a href="#" class="title text-black">Location</a>
+          <a href="#" class="text-body-secondary">Where are you going?</a>
+        </div>
+        <div class="d-flex justify-content-center gap-4">
+          <div class="d-flex flex-column">
+            <a href="#" class="title text-black">Check-in</a>
+            <div class="date d-flex align-items-center gap-4">
+              <a href="#" class="text-body-secondary">gg/mm/aaaa</a>
+              <ion-icon name="calendar-clear-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="d-flex flex-column">
+            <a href="#" class="title text-black">Check-out</a>
+            <div class="date d-flex align-items-center gap-4">
+              <a href="#" class="text-body-secondary">gg/mm/aaaa</a>
+              <ion-icon name="calendar-clear-outline"></ion-icon>
+            </div>
+          </div>
+          <div class="d-flex flex-column">
+            <a href="#" class="title text-black">Guest</a>
+            <a href="#" class="text-body-secondary">Add guest</a>
+          </div>
+        </div>
+        <ion-icon
+          name="search-outline"
+          class="text-white bg-danger p-2 rounded-circle"
+        ></ion-icon>
+      </main>
+    </div>
+    <div class="jumbtron"></div>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
