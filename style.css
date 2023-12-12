@@ -21,20 +21,48 @@ button ion-icon{
 }
 /* JUMBTRON */
 .jumbtron{
-    background: url(assets/home.jpg);
+    /* width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    z-index: 1; */
+    width: 100%;
+    height: 80vh;
+    background-image: url(assets/home.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.testo-jumbtron{
+   
+}
+.testo-jumbtron h1{
+    line-height: 70px;
 }
 main{
-width: 60%;
+width: max-content;
 }
 main .title{
     font-size: small;
     font-weight: 500;
 }
-.imgHome{
-  height: 400px;
-  margin-left: 30%;
-}
 .go-near{
-    margin-top: -40%;
-    font-size: 100px;
+    font-size: 80px;
+    width: max-content;
+}
+/* Card */
+.carta{
+    margin-top: 20px;
+}
+.carta img{
+    aspect-ratio: 1/1;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.carta a{
+    width: max-content;
+}
+/* FOOTER */
+.footer{
+    margin-top: 20%;
 }
