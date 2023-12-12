@@ -30,3 +30,11 @@ main .title{
     font-size: small;
     font-weight: 500;
 }
+.imgHome{
+  height: 400px;
+  margin-left: 30%;
+}
+.go-near{
+    margin-top: -40%;
+    font-size: 100px;
+}
