@@ -49,3 +49,22 @@ z-index: -1 !important;
 .informazioni p:last-of-type{
     text-decoration: underline;
 }
+.text-secondary-emphasis {
+    color: gray !important;
+}
+.sx.mt-5 p {
+    font-size: 15px !important;
+    
+}
+.sx.mt-5 p:last-of-type {
+    text-decoration: underline !important;
+}
+.dormirai{
+    margin-top: 20px !important;
+}
+.troverai{
+    margin-top: 20px !important;
+}
+h6.taglio{
+    text-decoration: line-through !important;
+}
