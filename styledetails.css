@@ -68,3 +68,11 @@ z-index: -1 !important;
 h6.taglio{
     text-decoration: line-through !important;
 }
+
+h6{
+    padding: 5%;
+}
+
+.line{
+    border-bottom: 2px solid rgb(217, 205, 205) !important;
+}
