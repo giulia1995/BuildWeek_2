@@ -35,5 +35,17 @@ z-index: -1 !important;
     border-bottom-right-radius: 10px !important;
 }
 .btn.active.position-absolute{
-    transform: translate(-120%,300%);
+    transform: translate(490%,-150%);
+    z-index: 2;
+}
+.sx{
+    width: 55%;
+}
+#profilo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.informazioni p:last-of-type{
+    text-decoration: underline;
 }
