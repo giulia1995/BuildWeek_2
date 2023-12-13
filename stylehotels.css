@@ -34,10 +34,11 @@ p.font {
     border-bottom: 2px solid black !important;
 }
 .d-flex{
-    justify-content:space-around
+    justify-content:space-around;
+    
 }
 .carousel-control-next-icon{
-background-color: black;
+    fill: black!important;
 }
 
 
@@ -47,7 +48,6 @@ background-color: black;
 }
 .carousel__edit {
     padding-block: 15px;
-    border-block: 1px solid lightgrey;
 }
 #filterButton {
     border: 1px solid lightgrey;
@@ -69,6 +69,38 @@ background-color: black;
 
 .carousel-control-next, .carousel-control-prev{
     width: 3%;
+}
+
+/* card */
+a{
+    text-decoration: none;
+}
+.card button{
+    width: 7.5px!important;
+    height: 7.5px!important;
+}
+.card:hover{
+    transform: scale(105%, 105%);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.heart{
+    z-index: 2;
+    right: 0%;
+    color: white;
+    padding: 5%;
+    width: 25px;
+    height: 25px;
+    fill: rgba(0, 0, 0, 0.342)!important;
+    stroke: white!important;
+    stroke-width: 5% !important;
+}
+.heart:hover{
+    fill: white!important;
+}
+.carousel-inner.rounded-3 img{
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
     
   
