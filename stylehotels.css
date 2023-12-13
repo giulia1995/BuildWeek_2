@@ -33,3 +33,42 @@ p.font {
 .icone:hover{
     border-bottom: 2px solid black !important;
 }
+.d-flex{
+    justify-content:space-around
+}
+.carousel-control-next-icon{
+background-color: black;
+}
+
+
+
+.carousel-inner {
+    width: 100%;
+}
+.carousel__edit {
+    padding-block: 15px;
+    border-block: 1px solid lightgrey;
+}
+#filterButton {
+    border: 1px solid lightgrey;
+    width: 80px;
+    height: 40px;
+    padding: 0;   
+    border-radius: 20px;
+}
+
+
+.carousel-control-next {
+    border: 1px solid black;
+    width: 30px;
+    margin-right: 100px;
+    border-radius: 50px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    width: 3%;
+}
+    
+  
