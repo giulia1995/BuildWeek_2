@@ -142,9 +142,7 @@
             <img class="pb-1" src="./assets/4.webp" alt="casa4" />
             <img class="" src="./assets/5.webp" alt="casa5" />
           </div>
-        </div>
-      </div>
-      <button
+          <button
         type="button"
         class="btn active position-absolute bg-white"
         data-bs-toggle="button"
@@ -153,6 +151,10 @@
         <ion-icon class="text-align-center" name="apps"></ion-icon> Mostra tutte
         le foto
       </button>
+        </div>
+        
+      </div>
+      
       <div class="container border-bottom mb-5">
         <div class="sx mt-5 mb-5">
           <div
@@ -280,7 +282,7 @@
             <h6 class="p-0">7 gen 2024- 12 gen 2024</h6>
           </div>
           <div class="calendario-generale">
-            <div class="calendario d-flex justify-content-start gap-5">
+            <div class="calendario d-flex justify-content-between gap-5">
               <div class="calendario-top-sx">
                 <div
                   class="anno mb-3 d-flex justify-content-start align-items-center gap-4"
@@ -422,25 +424,27 @@
                 </div>
               </div>
             </div>
-            <div class="calendario-bottom d-flex justify-content-between">
-              <ion-icon name="calendar-outline"></ion-icon>
+            <div class="calendario-bottom d-flex justify-content-between mt-3">
+              <ion-icon id="calendar" name="calendar-outline"></ion-icon>
               <p class="fw-bold">Annulla date</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="commenti">
-        <div class="d-flex justify-content-start align-items-center gap-2">
-          <ion-icon name="star"></ion-icon>
-          <h6 class="mb-0 p-0">4.96 · 168 recensioni</h6>
-        </div>
-        <div class="d-flex justify-content-start align-items-center gap-2">
-          <p class="mb-0">Scopri di più sulle recensioni</p>
-          <ion-icon name="alert-circle-outline"></ion-icon>
-        </div>
+      <div class="d-flex justify-content-start align-items-center gap-2">
+        <ion-icon name="star"></ion-icon>
+        <h6 class="mb-0 p-0 fs-3">4.96 · 168 recensioni</h6>
+      </div>
+      <div class="d-flex justify-content-start align-items-center gap-2">
+        <p class="mb-0">Scopri di più sulle recensioni</p>
+        <ion-icon name="alert-circle-outline"></ion-icon>
+      </div>
+      <div
+        class="commenti border-bottom pb-5 d-flex justify-content-between gap-5"
+      >
         <div class="commenti-sx">
           <div class="d-flex justify-content-between mt-3">
-            <p>pulizia</p>
+            <p>Pulizia</p>
             <div class="d-flex justify-content-end align-items-center gap-3">
               <div class="barra-valuta-piena bg-black"></div>
               <p class="valuta mb-0">5.0</p>
@@ -464,8 +468,145 @@
               <p class="valuta mb-0">4.9</p>
             </div>
           </div>
+          <div class="recensioni mt-5">
+            <div class="d-flex justify-content-start gap-3">
+              <div class="cerchio"></div>
+              <div class="user">
+                <h5 class="mb-0">Tom</h5>
+                <p class="mb-0 text-secondary-emphasis">ottobre 2023</p>
+              </div>
+            </div>
+            <p class="mt-2">
+              Posto meraviglioso, <br />
+              molto appartato, bel ristorante sopra, splendida vista
+            </p>
+          </div>
+          <div class="recensioni mt-5">
+            <div class="d-flex justify-content-start gap-3">
+              <div class="cerchio"></div>
+              <div class="user">
+                <h5 class="mb-0">Reinold</h5>
+                <p class="mb-0 text-secondary-emphasis">ottobre 2023</p>
+              </div>
+            </div>
+            <p class="mt-2">
+              Non posso che confermare le recensioni positive già molte volte disponibili .
+Chi ama l'atmosfera rustica di una baita alpina, al mattino il...
+            </p>
+            <a class="mostra" href="">Mostra Altro ></a>
+          </div>
+          <div class="recensioni mt-5">
+            <div class="d-flex justify-content-start gap-3">
+              <div class="cerchio"></div>
+              <div class="user">
+                <h5 class="mb-0">Liz</h5>
+                <p class="mb-0 text-secondary-emphasis">ottobre 2023</p>
+              </div>
+            </div>
+            <p class="mt-2">
+              Ottima e splendida posizione. Host molto gentili! Lo consiglio!
+            </p>
+          </div>
+          <button type="button" class="btn btn-light">
+            Mostra tutte le 168 recensioni
+          </button>
+        </div>
+        <div class="commenti-sx">
+          <div class="d-flex justify-content-between mt-3">
+            <p>Precisione</p>
+            <div class="d-flex justify-content-end align-items-center gap-3">
+              <div class="barra-valuta-piena bg-black"></div>
+              <p class="valuta mb-0">5.0</p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between">
+            <p>Posizione</p>
+            <div class="d-flex justify-content-end align-items-center gap-3">
+              <div class="barra-valuta-piena">
+                <div class="barra-valuta-vuota"></div>
+              </div>
+              <p class="valuta mb-0">4.9</p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between">
+            <p>Qualità/Prezzo</p>
+            <div class="d-flex justify-content-end align-items-center gap-3">
+              <div class="barra-valuta-piena">
+                <div class="barra-valuta-vuota"></div>
+              </div>
+              <p class="valuta mb-0">4.9</p>
+            </div>
+          </div>
+          <div class="recensioni mt-5">
+            <div class="d-flex justify-content-start gap-3">
+              <div class="cerchio"></div>
+              <div class="user">
+                <h5 class="mb-0">Edda</h5>
+                <p class="mb-0 text-secondary-emphasis">ottobre 2023</p>
+              </div>
+            </div>
+            <p class="mt-2">
+              Siamo stati ospiti per la quarta volta nella "nostra" capanna
+              preferita in Svizzera - una famosa pausa per noi in famiglia, pura
+              decelerazione con un panorama di classe mondiale a...
+            </p>
+            <a class="mostra" href="">Mostra Altro ></a>
+          </div>
+          <div class="recensioni mt-5">
+            <div class="d-flex justify-content-start gap-3">
+              <div class="cerchio"></div>
+              <div class="user">
+                <h5 class="mb-0">Sandra</h5>
+                <p class="mb-0 text-secondary-emphasis">ottobre 2023</p>
+              </div>
+            </div>
+            <p class="mt-2">
+              Abbiamo trascorso giorni meravigliosi e rilassanti al cottage di
+              Heinz e Rita. Il cottage è facile da trovare e la vista è un
+              sogno!...
+            </p>
+            <a class="mostra" href="">Mostra Altro ></a>
+          </div>
+          <div class="recensioni mt-5">
+            <div class="d-flex justify-content-start gap-3">
+              <div class="cerchio"></div>
+              <div class="user">
+                <h5 class="mb-0">Teresa</h5>
+                <p class="mb-0 text-secondary-emphasis">ottobre 2023</p>
+              </div>
+            </div>
+            <p class="mt-2">
+              Omg "The Hut" è stato uno dei luoghi più magici in cui abbiamo mai soggiornato!!! È stato perfetto sotto ogni punto di vista!!! Sedersi la sera con la luna che brillava su di noi era qualcosa...
+            </p>
+            <a class="mostra" href="">Mostra Altro ></a>
+          </div>
         </div>
       </div>
+      <div class="sub-description border-bottom pb-5">
+      <h3 class="mt-5">Dove ti troverai</h3>
+      <img class="mt-5" src="./assets/mappa.png" alt="">
+      <h5 class="ernen p-0 mt-5">Ernen, Wallis, Svizzera</h5>
+      <p>Alpe tranquilla con una vista da sogno. Regione top per escursioni a piedi e sci/racchette da neve.
+      </p>
+      <p>Nelle immediate vicinanze si trova il nostro hotel di montagna e offre la possibilità di utilizzare anche l'area benessere con un piccolo supplemento....</p>
+      <a class="mostra" href="">Mostra Altro ></a>
+    </div>
+    <div class="host mt-5 ">
+      <div class="d-flex justify-content-start align-items-center gap-3">
+        <div class="cerchio2"></div>
+        <div class="user">
+          <h3 class="mb-0">Host: Heinz Und Rita</h3>
+          <p class="mb-0 text-secondary-emphasis">Membro da: maggio 2015 · <a href="">Host privato</a></p>
+        </div>
+      </div>
+      <div class="dettagli-host d-flex gap-3 mt-3">
+        <h5><ion-icon name="star"></ion-icon> 168 Recensioni</h5>
+        <h5><ion-icon name="shield-checkmark"></ion-icon> Identità verificata</h5>
+        <h5><ion-icon name="ribbon"></ion-icon> Superhost</h5>
+
+      </div>
+      
+    </div>
     </div>
 
     <script
