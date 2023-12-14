@@ -73,7 +73,7 @@ let arrayCard = [
   },
 ];
 
-let contenitore = document.querySelector(".container");
+let contenitore = document.querySelector(".container-card");
 // let card = function () {
 for (let i = 0; i < arrayCard.length; i++) {
   contenitore.innerHTML += `<div class="col-12 col-sm-6 col-md-4 col-lg-3 p-2 pb-4">

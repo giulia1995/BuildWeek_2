@@ -27,44 +27,42 @@ button ion-icon{
     background-color: #FF5A5E !important;
 }
 p.font {
-    font-size: small !important;
+    font-size: x-small !important;
     padding-top: 5px !important;
 }
 .icone:hover{
     border-bottom: 2px solid black !important;
 }
-.d-flex{
-    justify-content:space-around;
-    
-}
-.carousel-control-next-icon{
-    fill: black!important;
-}
 
 
 
-.carousel-inner {
-    width: 100%;
-}
-.carousel__edit {
-    padding-block: 15px;
-}
 #filterButton {
     border: 1px solid lightgrey;
     width: 80px;
-    height: 40px;
-    padding: 0;   
-    border-radius: 20px;
+    height: 50px;
+    border-radius: 10px !important;
+    margin-right: 10px !important;
 }
+#filterButton ion-icon{
+    font-size: large;
+    color: black !important;
+}
+#filterButton p{
+    font-size: small;
+    font-weight: bolder;
+}
+
 
 
 .carousel-control-next {
     border: 1px solid black;
-    width: 30px;
-    margin-right: 100px;
-    border-radius: 50px;
-    height: 30px;
+    width: 35px !important;
+    height: 35px !important;
+    margin-right: 120px;
+    border-radius: 50%;
+    background-color: black !important;
     margin-top: 5px;
+    padding: 10px !important;
 }
 
 .carousel-control-next, .carousel-control-prev{
@@ -103,4 +101,7 @@ a{
     object-fit: cover;
 }
     
-  
+main{
+    margin-left: 3% !important;
+    margin-right: 3% !important;
+}
