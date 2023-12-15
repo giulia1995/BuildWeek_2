@@ -108,6 +108,7 @@ for (let i = 0; i < arrayCard.length; i++) {
           <div class="carousel-item rounded-3 active">
             <img
               src=" ${arrayCard[i].immagine}"
+
               class="d-block w-100 rounded-3"
               alt="..."
             />
