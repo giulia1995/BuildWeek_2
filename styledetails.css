@@ -161,7 +161,32 @@ h6.taglio{
 .ernen{
     font-weight: bold !important;
 }
+.host{
+    width: 40%;
+}
 .host a{
     text-decoration: underline !important;
     font-weight: bold;
+}
+.hostplus{
+    font-weight: bolder;
+}
+.hostdx{
+    width: 40%;
+    margin-top: 11%;
+}
+.hostdx button{
+    border: 2px black solid !important;
+    margin-top: 2%;
+    font-weight: bolder !important; 
+    padding-inline: 20px !important;
+}
+.scudo{
+    color: #FF5A5E !important ;
+}
+.sub-button{
+    width: 50%;
+}
+.sub-button p{
+font-size: x-small !important;
 }
