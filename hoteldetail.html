@@ -20,7 +20,7 @@
           ><img class="logo" src="./assets/logo-pink.png" alt="logo"
         /></a>
         <div
-          class="central-navbar d-flex align-items-center rounded-pill border p-2"
+          class="central-navbar d-none d-md-flex align-items-center rounded-pill border p-2"
         >
           <ul
             class="d-flex justify-content-center text-align-center gap-3 mb-0"
@@ -43,7 +43,7 @@
             <ion-icon name="search-outline"></ion-icon>
           </div>
         </div>
-        <div class="dx-nav d-flex gap-3 align-items-center">
+        <div class="dx-nav d-none d-lg-flex gap-3 align-items-center">
           <a href="#">Affitta con Airbnb</a>
           <ion-icon name="globe-outline" class="text-black"></ion-icon>
 
@@ -76,31 +76,33 @@
           </div>
         </div>
 
-        <!-- <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarText"
-        aria-controls="navbarText"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Pla</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-        </ul>
-        <span class="navbar-text"> Navbar text with an inline element </span>
-      </div> -->
+        <button
+          class="navbar-toggler d-block d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Ovunque</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Qualunque settimana</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Aggiungi Ospiti</a>
+            </li>
+          </ul>
+          <span class="navbar-text"> Affitta con Air bnb </span>
+        </div>
       </div>
     </nav>
     <div class="container mt-4">
@@ -132,19 +134,19 @@
         </div>
       </div>
       <div class="row">
-        <div class="col d-flex mt-4 position-relative">
-          <img class="pe-1" id="large" src="./assets/1.webp" alt="casa1" />
-          <div class="d-flex-column">
+        <div class="col d-flex justify-content-center mt-4 position-relative">
+          <img class="pe-1 col" id="large" src="./assets/1.webp" alt="casa1" />
+          <div class="d-flex-column d-none d-md-block">
             <img class="pe-1 pb-1" src="./assets/2.webp" alt="casa2" />
             <img class="pe-1" src="./assets/3.webp" alt="casa3" />
           </div>
-          <div id="bordo" class="d-flex-column">
+          <div id="bordo" class="d-flex-column d-none d-md-block">
             <img class="pb-1" src="./assets/4.webp" alt="casa4" />
             <img class="" src="./assets/5.webp" alt="casa5" />
           </div>
           <button
             type="button"
-            class="btn active position-absolute bg-white"
+            class="btn active position-absolute bg-white d-none d-md-block"
             data-bs-toggle="button"
             aria-pressed="true"
           >
@@ -154,12 +156,14 @@
         </div>
       </div>
 
-      <div class="container border-bottom mb-5 d-flex justify-content-between">
-        <div class="sx mt-5 mb-5">
+      <div
+        class="container border-bottom mb-5 d-flex justify-content-center flex-wrap"
+      >
+        <div class="sx mt-5 mb-5 col">
           <div
             class="d-flex justify-content-between align-items-center gap-5 border-bottom pb-4"
           >
-            <div class="titolo">
+            <div class="titolo d-flex flex-wrap">
               <h3>Intero alloggio: chalet-Host: Heinz Und Rita</h3>
               <h6>6 ospiti · 2 camere da letto · 5 letti · 1 bagno</h6>
             </div>
@@ -210,8 +214,12 @@
           <p class="mt-4 fw-bold pb-5 border-bottom">Mostra altro ></p>
           <div class="dormirai">
             <h4>Dove dormirai</h4>
-            <div class="d-flex justify-content-start gap-5 border-bottom pb-5">
-              <div class="camera1 d-flex-column border p-3 rounded-3">
+            <div
+              class="d-flex col justify-content-start gap-5 border-bottom pb-5"
+            >
+              <div
+                class="camera1 col col-lg-6 d-flex-column border p-3 rounded-3"
+              >
                 <div class="icone-letto">
                   <ion-icon name="bed"></ion-icon>
                   <ion-icon name="bed"></ion-icon>
@@ -221,7 +229,9 @@
                 <h6>Camera da letto 1</h6>
                 <p class="mb-0">4 letti singoli</p>
               </div>
-              <div class="camera2 d-flex-column border p-3 rounded-3">
+              <div
+                class="camera2 col col-lg-6 d-flex-column border p-3 rounded-3"
+              >
                 <div class="icone-letto">
                   <ion-icon name="bed"></ion-icon>
                 </div>
@@ -352,7 +362,7 @@
                   </div>
                 </div>
               </div>
-              <div class="calendario-top-dx d-none d-sm-block">
+              <div class="calendario-top-dx d-none d-md-block">
                 <div
                   class="anno mb-3 d-flex justify-content-end align-items-center gap-4"
                 >
@@ -451,7 +461,7 @@
                   <div class="scatoletta2 col-6 col-sm-3 fw-bold">
                     check-out<br />12/1/2024
                   </div>
-    
+
                   <div class="scatoletta3 col-12 col-sm-6">
                     <div class="fw-bold mt-2">
                       <p>OSPITI</p>
@@ -488,7 +498,7 @@
                 </div>
               </div>
             </div>
-           
+
             <div class="occasione d-flex p-3">
               <p>
                 E' una occasione unica. L'alloggio di <br />Heinz und Rita
@@ -502,9 +512,6 @@
             </div>
           </div>
         </div>
-
-
-        
       </div>
       <div class="d-flex justify-content-start align-items-center gap-2">
         <ion-icon name="star"></ion-icon>
@@ -517,7 +524,7 @@
       <div
         class="commenti border-bottom pb-5 d-flex justify-content-between gap-5"
       >
-        <div class="commenti-sx">
+        <div class="commenti-sx col">
           <div class="d-flex justify-content-between mt-3">
             <p>Pulizia</p>
             <div class="d-flex justify-content-end align-items-center gap-3">
@@ -587,7 +594,7 @@
             Mostra tutte le 168 recensioni
           </button>
         </div>
-        <div class="commenti-sx">
+        <div class="commenti-sx d-none d-sm-block">
           <div class="d-flex justify-content-between mt-3">
             <p>Precisione</p>
             <div class="d-flex justify-content-end align-items-center gap-3">
@@ -662,7 +669,7 @@
       </div>
       <div class="sub-description border-bottom pb-5">
         <h3 class="mt-5">Dove ti troverai</h3>
-        <img class="mt-5" src="./assets/mappa.png" alt="" />
+        <img id="mappa" class="mt-5" src="./assets/mappa.png" alt="" />
         <h5 class="ernen p-0 mt-5">Ernen, Wallis, Svizzera</h5>
         <p>
           Alpe tranquilla con una vista da sogno. Regione top per escursioni a
@@ -676,7 +683,7 @@
         <a class="mostra" href="">Mostra Altro ></a>
       </div>
       <div class="d-flex justify-content-between mb-5 border-bottom">
-        <div class="host mt-5">
+        <div class="host mt-5 col">
           <div class="d-flex justify-content-start align-items-center gap-3">
             <div class="cerchio2"></div>
             <div class="user">
@@ -709,7 +716,7 @@
             ospiti.
           </p>
         </div>
-        <div class="hostdx">
+        <div class="hostdx d-none d-md-block">
           <p class="hostplus">Lingue:English,Français,Deutsch</p>
           <p class="hostplus">Tasso di risposta: 100%</p>
           <p class="hostplus">Tempo di risposta: entro un'ora</p>
@@ -723,8 +730,8 @@
           </div>
         </div>
       </div>
-      <h3>Da sapere</h3>
-      <div class="d-flex justify-content-between mt-5">
+      <h3 class="d-none d-md-block">Da sapere</h3>
+      <div class="justify-content-between d-none d-md-flex">
         <div class="infoprefooter">
           <h5>Regole della casa</h5>
           <p>Check-in dopo le ore 15:00</p>
@@ -768,7 +775,7 @@
           <p>Opzioni di cancellazione</p>
           <p>Segnala problema nel quartiere</p>
         </div>
-        <div class="infoprefooter">
+        <div class="infoprefooter d-none d-sm-block">
           <h5>Ospitare</h5>
           <p>Apri un Airbnb</p>
           <p>AirCover per gli host</p>
@@ -776,7 +783,7 @@
           <p>Forum della community</p>
           <p>Ospitare responsabilmente</p>
         </div>
-        <div class="infoprefooter">
+        <div class="infoprefooter d-none d-md-block">
           <h5>Airbnb</h5>
           <p>Newsroom</p>
           <p>Nuove funzionalità</p>
@@ -785,15 +792,23 @@
           <p>Gift card</p>
           <p>Soggiorni con Airbnb.org</p>
         </div>
-        
       </div>
-      <div class="container border-top mt-5 py-3 d-flex justify-content-between">
-        <h6>©2023Airbnb,Inc. · Privacy · Termini · Mappadelsito · Dettaglidell'azienda
-          Italiano (IT)
-          € EUR</h6>
-          <h6><ion-icon name="globe-outline"></ion-icon> Italiano (IT)  € EUR <ion-icon name="logo-facebook"></ion-icon>  <ion-icon name="logo-twitter"></ion-icon>  <ion-icon name="logo-instagram"></ion-icon></h6>
+      <div
+        class="container border-top mt-5 py-3 d-flex justify-content-between flex-wrap"
+      >
+        <h6>
+          ©2023Airbnb,Inc. · Privacy · Termini · Mappadelsito ·
+          Dettaglidell'azienda Italiano (IT) € EUR
+        </h6>
+        <h6>
+          <ion-icon name="globe-outline"></ion-icon> Italiano (IT) € EUR
+          <ion-icon name="logo-facebook"></ion-icon>
+          <ion-icon name="logo-twitter"></ion-icon>
+          <ion-icon name="logo-instagram"></ion-icon>
+        </h6>
       </div>
     </footer>
+    <script src="./hotels.js"></script>
 
     <script
       type="module"
