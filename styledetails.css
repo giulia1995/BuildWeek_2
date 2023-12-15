@@ -1,192 +1,275 @@
-.navbar{
-    padding-inline: 180px!important;
+.navbar {
+  padding-inline: 180px !important;
 }
-.underline{
-    text-decoration: underline !important;
+.underline {
+  text-decoration: underline !important;
 }
 span .bold {
-    font-weight: bolder !important;
+  font-weight: bolder !important;
 }
-.col.d-flex{
-    width: 100% !important;
-    z-index: 2 !important;
+.col.d-flex {
+  width: 100% !important;
+  z-index: 2 !important;
 }
-#large{
-    width: 50% !important;
-    aspect-ratio: 16/9 !important;
-    object-fit: cover;
-    border-top-left-radius: 10px !important;
-    border-bottom-left-radius:  10px !important;
+#large {
+  width: 50% !important;
+  aspect-ratio: 16/9 !important;
+  object-fit: cover;
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
 }
-.d-flex-column{
-    width: 25% !important;
+.d-flex-column {
+  width: 25% !important;
 }
-.d-flex-column img{
-width: 100% !important;
-aspect-ratio: 16/9 !important;
-object-fit: cover;
-z-index: -1 !important;
-
+.d-flex-column img {
+  width: 100% !important;
+  aspect-ratio: 16/9 !important;
+  object-fit: cover;
+  z-index: -1 !important;
 }
-.d-flex-column:last-of-type img:first-of-type{
-    border-top-right-radius: 10px !important;
+.d-flex-column:last-of-type img:first-of-type {
+  border-top-right-radius: 10px !important;
 }
-.d-flex-column:last-of-type img:last-of-type{
-    border-bottom-right-radius: 10px !important;
+.d-flex-column:last-of-type img:last-of-type {
+  border-bottom-right-radius: 10px !important;
 }
-.btn.active.position-absolute{
-    bottom:30px;
-    right: 30px;
-    z-index: 2;
+.btn.active.position-absolute {
+  bottom: 30px;
+  right: 30px;
+  z-index: 2;
 }
-.sx{
-    width: 55%;
+.sx {
+  width: 55%;
 }
-#profilo{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
+#profilo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }
-.informazioni p:last-of-type{
-    text-decoration: underline;
+.informazioni p:last-of-type {
+  text-decoration: underline;
 }
 .text-secondary-emphasis {
-    color: gray !important;
+  color: gray !important;
 }
 .sx.mt-5 p {
-    font-size: 15px;
-    
+  font-size: 15px;
 }
 .sx.mt-5 p:last-of-type {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-.dormirai{
-    margin-top: 20px !important;
+.dormirai {
+  margin-top: 20px !important;
 }
-.troverai{
-    margin-top: 20px !important;
+.troverai {
+  margin-top: 20px !important;
 }
-h6.taglio{
-    text-decoration: line-through !important;
+h6.taglio {
+  text-decoration: line-through !important;
 }
-
-
-
 
 /* Calendario */
-.calendario-generale{
-    width: 100%;
+.calendario-generale {
+  width: 100%;
 }
-.calendario-top-sx{
-    width: 40%;
+.calendario-top-sx {
+  width: 40%;
 }
-.calendario-top-dx{
-    width: 40%;
+.calendario-top-dx {
+  width: 40%;
 }
-.riga span{
-    text-decoration: line-through;
+.riga span {
+  text-decoration: line-through;
 }
-.giorni .riga p{
-    margin-bottom: 0%;
-    margin-block: 7px;
-    font-size: 10px;
-}
-
-.giorni .riga .fw-bolder.text-black:hover{
-    background-color: black;
-    color: white!important;
-    border-radius: 50%;
-    cursor: pointer;
-}
-.calendario-bottom p{
-    text-decoration: underline;
-    font-size: 15px!important;
-}
-#calendar{
-   
-    font-size: 30px!important;
+.giorni .riga p {
+  margin-bottom: 0%;
+  margin-block: 7px;
+  font-size: 10px;
 }
 
-.calendario-bottom{
-    width: initial;
+.giorni .riga .fw-bolder.text-black:hover {
+  background-color: black;
+  color: white !important;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.calendario-bottom p {
+  text-decoration: underline;
+  font-size: 15px !important;
+}
+#calendar {
+  font-size: 30px !important;
+}
 
+.calendario-bottom {
+  width: initial;
 }
 
 /* commenti */
 
-.commenti p{
-    font-size: 15px;
-    font-weight: bolder;
+.commenti p {
+  font-size: 15px;
+  font-weight: bolder;
 }
-.commenti-sx{
-    width: 50%;
+.commenti-sx {
+  width: 50%;
 }
-.barra-valuta-piena{
-    width: 100px;
-    height: 3px;
-    background-color: gray;
-    border-radius: 30px;
+.barra-valuta-piena {
+  width: 100px;
+  height: 3px;
+  background-color: gray;
+  border-radius: 30px;
 }
-.barra-valuta-vuota{
-    width: 97px;
-    height: 3px;
-    background-color: black;
-    border-radius: 30px;
-    z-index: 2;
+.barra-valuta-vuota {
+  width: 97px;
+  height: 3px;
+  background-color: black;
+  border-radius: 30px;
+  z-index: 2;
 }
-.cerchio{
-    background-color: lightgray;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
+.cerchio {
+  background-color: lightgray;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
-.cerchio2{
-    background-color: lightgray;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
+.cerchio2 {
+  background-color: lightgray;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
 }
-.recensioni{
-    width: 80%;
+.recensioni {
+  width: 80%;
 }
 .commenti-sx button {
-    border: 2px black solid !important;
-    margin-top: 100px !important;
-    font-weight: bolder !important;
+  border: 2px black solid !important;
+  margin-top: 100px !important;
+  font-weight: bolder !important;
 }
 .mostra {
-    text-decoration: underline !important;
-    font-weight: bold !important;
+  text-decoration: underline !important;
+  font-weight: bold !important;
 }
-.ernen{
-    font-weight: bold !important;
+.ernen {
+  font-weight: bold !important;
 }
-.host{
-    width: 40%;
+.host {
+  width: 40%;
 }
-.host a{
-    text-decoration: underline !important;
-    font-weight: bold;
+.host a {
+  text-decoration: underline !important;
+  font-weight: bold;
 }
-.hostplus{
-    font-weight: bolder;
+.hostplus {
+  font-weight: bolder;
 }
-.hostdx{
-    width: 40%;
-    margin-top: 11%;
+.hostdx {
+  width: 40%;
+  margin-top: 11%;
 }
-.hostdx button{
-    border: 2px black solid !important;
-    margin-top: 2%;
-    font-weight: bolder !important; 
-    padding-inline: 20px !important;
+.hostdx button {
+  border: 2px black solid !important;
+  margin-top: 2%;
+  font-weight: bolder !important;
+  padding-inline: 20px !important;
 }
-.scudo{
-    color: #FF5A5E !important ;
+.scudo {
+  color: #ff5a5e !important ;
 }
-.sub-button{
-    width: 50%;
+.sub-button {
+  width: 50%;
 }
-.sub-button p{
-font-size: x-small !important;
+.sub-button p {
+  font-size: x-small !important;
+}
+.infoprefooter {
+  width: 30%;
+}
+footer {
+  background-color: rgb(241, 238, 238) !important;
+}
+
+.card {
+  height: fit-content;
+  border-radius: 10px;
+}
+
+.titolo {
+  display: flex;
+  justify-content: space-between;
+}
+.notte {
+  margin-left: 20px;
+}
+.star {
+  height: 20px;
+}
+.scatoletta {
+  border: 1px solid rgb(173, 170, 170);
+  border-radius: 10px 0 0 0;
+  width: 50%;
+ 
+  text-align: start;
+  padding-top: 10px;
+}
+.scatoletta2 {
+  border: 1px solid rgb(173, 170, 170);
+  border-radius: 0 10px 0 0;
+  width: 50%;
+  padding-bottom: 20px;
+  text-align: start;
+  padding-top: 10px;
+}
+
+.scatoletta3 {
+  border: 1px solid rgb(173, 170, 170);
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contenitore{
+    margin-inline:10px !important;
+}
+.bottone {
+  border-radius: 10px;
+  background-color: rgb(173, 51, 104);
+  width: 100% !important;
+  
+  margin-top: 10px;
+  padding: 10px;
+  color: white;
+
+}
+.card-text {
+  text-decoration: underline;
+}
+.costi {
+  display: flex !important;
+  justify-content: space-between;
+}
+.totale {
+  display: flex;
+  justify-content: space-between;
+}
+.occasione {
+  margin-top: 20px;
+  border: 1px solid rgb(173, 170, 170);
+  border-radius: 10px; 
+ 
+}
+.diamond {
+  margin-left: 40px;
+  color: rgb(235, 106, 222);
+}
+.segnala {
+  text-decoration: underline;
+}
+.scatoletta4 {
+  display: flex;
+  justify-content: center;
+  margin-left: -20%;
 }

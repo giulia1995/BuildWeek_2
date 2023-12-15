@@ -63,6 +63,7 @@ main .title{
     width: max-content;
 }
 /* FOOTER */
-.footer{
-    margin-top: 20%;
+
+footer{
+    background-color: rgb(241, 238, 238) !important;
 }
